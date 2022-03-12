@@ -21,17 +21,17 @@
         <!-------Navber section start------>
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
-              <a class="navbar-brand" href="#">Free Pic</a>
+              <a class="navbar-brand text-primary" href="index.html">Free Pic</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-primary" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link text-primary" href="#">Contact</a>
                   </li>
                   
                 </ul>
@@ -49,7 +49,7 @@
                     Photo by Matt Hardy
                     The best free <br> stock photos, royalty free images & videos shared by <br>creators.</h1>
                     <div class=" text-input">
-                        <input class="form-control form-control-lg p-3 " type="text" placeholder="Search for free photos" aria-label=".form-control-lg example">
+                        <input class="form-control form-control-lg p-3 " type="text" placeholder="Search for free photos" aria-label=".form-control-lg example" id="search-input">
 
                     </div>
               </div>
@@ -67,28 +67,30 @@
               <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fs-5" href="#">Home</a>
+              <a class="nav-link fs-5" href="#">Discover</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fs-5" href="#">Link</a>
+              <a class="nav-link fs-5" href="#"> Videos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fs-5">Disabled</a>
+              <a class="nav-link fs-5">Leaderboard</a>
             </li>
           </ul>
     </div>
 
     <!-- images gallery start -->
-        <div id="images-gallery row row-cols-lg-4">
+      <div class="p-3">
+        <div id="images-gallery" class="row row-cols-lg-3 g-4 p-4">
 
         </div>
+      </div>
     <!-- images gallery ends -->
 
 </main>
 <!------------------main Section end now------------------->
 
 
-
+    <h1 id="error-massage" class="text-center text-danger"></h1>
     
 
     <!-- js file -->
